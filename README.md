@@ -6,7 +6,7 @@ Using different Machine Learning models of samplings to reduce bias, I was taske
 
 ## Results
 #### USING RANDOMOVERSAMPLER ALGORITHM
-![RandomOverSampler](images/randomoversampler.png)
+![RandomOverSampler](images/randomoversampler.PNG)
 
 * Accuracy score is about 63%
 * Precision is very low for high-risk loan statuses, but very accurate for low-risk
@@ -14,35 +14,35 @@ Using different Machine Learning models of samplings to reduce bias, I was taske
 * We note a pronounced imbalance between sensitivity and precision for the high-risk loan_status people - making the F1 score very low (0.02)
 
 #### USING SMOTE ALGORITHM
-![SMOTE](images/smote.png)
+![SMOTE](images/smote.PNG)
 
 * Accuracy score is about 63%
 * Precision is very low for high-risk loan statuses, but very accurate for low-risk
 * Sensitivity/Recall is high for both low and high-risk loan statuses
 
 #### USING CLUSTER CENTROIDS ALGORITHM
-![Cluster Centroids](images/clustercentroids.png)
+![Cluster Centroids](images/clustercentroids.PNG)
 
 * Accuracy score is about 53%
 * Precision is very low for high-risk loan statuses, but very accurate for low-risk
 * Sensitivity/Recall is low for low-risk loan status, and high for high-risk class
 
 #### USING SMOTEENN ALGORITHM
-![SMOTEENN](images/smoteenn.png)
+![SMOTEENN](images/smoteenn.PNG)
 
 * Accuracy score is about 64%
 * Precision is very low for high-risk loan statuses, but very accurate for low-risk
 * Sensitivity/Recall is high for both low and high-risk loan statuses
 
 #### USING BALANCED RANDOM FOREST CLASSIFIER
-![Balanced Random Forest Classifier](images/balancedrandomforestclassifier.png)
+![Balanced Random Forest Classifier](images/balancedrandomforestclassifier.PNG)
 
 * Accuracy score is about 79%
 * Precision is very low for high-risk loan statuses, but very accurate for low-risk
 * Sensitivity/Recall is high for both low and high-risk loan statuses
 
 #### USING EASY ENSEMBLE ADABOOST CLASSIFIER
-![Easy Ensemble Adaboost Classifier](images/adaboostclassifier.png)
+![Easy Ensemble Adaboost Classifier](images/adaboost.PNG)
 
 * Accuracy score is about 93%
 * Precision is very low for high-risk loan statuses, but very accurate for low-risk
